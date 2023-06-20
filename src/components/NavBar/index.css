@@ -1,0 +1,33 @@
+/* Write your code here. */
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 0px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-logo {
+  width: 25px;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.score {
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 16px;
+}

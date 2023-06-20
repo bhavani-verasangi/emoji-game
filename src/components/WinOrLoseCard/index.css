@@ -1,0 +1,59 @@
+/* Write your code here. */
+.win-or-lose-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff30;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+.game-status {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: 'Roboto';
+}
+
+.score-label {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.score-value {
+  color: #6a59ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #ffce27;
+  color: #ffffff;
+  margin: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+
+.win-lose-img {
+  width: 150px;
+  height: 200px;
+}
